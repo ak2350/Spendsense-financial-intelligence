@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DuckDB database
+duckdb/*.duckdb
+duckdb/*.tmp
+
+# Data outputs
+data/processed/
+data/intermediate/
+*.parquet
+*.feather
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
